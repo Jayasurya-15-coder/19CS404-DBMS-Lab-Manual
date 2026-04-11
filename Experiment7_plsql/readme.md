@@ -98,6 +98,7 @@ END;
 n = 7  
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 ### PROGRAM:
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -118,7 +119,7 @@ BEGIN
         i := i + 1;
     END LOOP;
 END;
-
+```
 ### OUTPUT:
 
 <img width="573" height="277" alt="image" src="https://github.com/user-attachments/assets/e5451122-4999-4179-ba20-2375c849cf89" />
@@ -138,7 +139,7 @@ n = 1535
 Reversed number is 5351
 
 ### PROGRAM:
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -155,7 +156,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('n = ' || original);
     DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed);
 END;
-
+```
 ### OUTPUT:
 
 <img width="681" height="213" alt="image" src="https://github.com/user-attachments/assets/9c70bae7-712f-4e4a-8456-afad6a676cda" />
